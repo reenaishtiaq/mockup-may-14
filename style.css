@@ -1,14 +1,18 @@
 /* write your styles here */
 
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
 marquee{
     background-color: #ed484c;
     color: white;
     padding-bottom: 1px solid black;
-
 }
+
 #nav-bar{
    position: fixed;
-   
 }
 
 #logo{
@@ -39,14 +43,10 @@ a{
     display: inline;
     font-size: 14px;
     padding-right: 28px;
-
-}
-
-main{
-    background: url(images/floral.png);
 }
 
 #introduction{
+    background: url(images/floral.png);
     background-color: #f18d97;
     padding: 1px;
 }
@@ -60,7 +60,7 @@ h1{
 
 #introduction p{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     padding: 22px 145px;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
@@ -75,5 +75,96 @@ h1{
     margin: 1em 45em;
     font-size: bold;
 }
+
+#services{
+    background: url(images/floral.png);
+    background-color: #efece7;
+    padding: 1px;
+}
+
+.service-list{
+    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.service-list i{
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.service-list figcaption{
+    font-size: 22px;
+    text-align: center;
+}
+
+#portfolio{
+    background: url(images/floral.png);
+    background-color: #ddceb4;
+    padding: 1px;
+}
+
+#portfolio p{
+    text-align: center;
+    font-size: 30px;
+    padding: 22px 145px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#project-1{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+}
+
+#project-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#contact{
+    background: url(images/floral.png);
+    background-color: #afc7c6;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-btn button{
+    font-size: 24px;
+    border-radius: 35px;
+    text-align: center;
+    padding: 12px 19px;
+    border: .5px solid black;
+    color: #212121;
+    background-color: #00000000;
+    margin: 12px;
+}
+
+footer{
+    background-color: #212121;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
 
 
