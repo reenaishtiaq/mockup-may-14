@@ -1,0 +1,79 @@
+/* write your styles here */
+
+marquee{
+    background-color: #ed484c;
+    color: white;
+    padding-bottom: 1px solid black;
+
+}
+#nav-bar{
+   position: fixed;
+   
+}
+
+#logo{
+    padding: 7px 17px;
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+    color: #a0a0a0;
+}
+    
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #4c4c4c;
+    padding: 10px;
+}
+
+#nav nav ul {
+    list-style-type: none;
+    padding: 0px;
+   margin: 0px;
+}
+
+#nav nav ul li {
+    display: inline;
+    font-size: 14px;
+    padding-right: 28px;
+
+}
+
+main{
+    background: url(images/floral.png);
+}
+
+#introduction{
+    background-color: #f18d97;
+    padding: 1px;
+}
+
+h1{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#introduction p{
+    text-align: center;
+    font-size: 30px;
+    padding: 22px 145px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#introduction button{
+    padding: 15px 40px;
+    letter-spacing: 1px;
+    background-color: #160d0e;
+    border: none;
+    color: #c76664;
+    margin: 1em 45em;
+    font-size: bold;
+}
+
+
