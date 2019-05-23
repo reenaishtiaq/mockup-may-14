@@ -93,6 +93,7 @@ h2{
     align-items: center;
     font-weight: bold;
 }
+
 .service-list i{
     font-size: 90px;
     display: flex;
@@ -131,7 +132,10 @@ h2{
 }
 .project figure{
     position: relative;
-    }
+}
+.project img{
+    border-radius: 15px;
+}
 
 .project figcaption {
     display: none;
@@ -139,6 +143,7 @@ h2{
     background-color: #160d0ec2;
     color: #efece7;
     text-align: center;
+    border-radius: 15px;
     position: absolute;
     top: 0;
     left: 0;
